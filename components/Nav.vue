@@ -1,10 +1,10 @@
 <template lang="html">
     <div>
-<NuxtPage />
+        
     </div>
 </template>
 <script setup lang="ts">
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
     
 </style>
