@@ -30,5 +30,8 @@ const props = defineProps({
         padding: 1rem;
         cursor: pointer
     }
+    @media (#{$phone}) {
+        display: block;
+    }
 }
 </style>

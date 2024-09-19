@@ -3,10 +3,10 @@
         See What's Next
     </h1>
     
-    <Slider :movies="movies.Search" />
+    <Slider :movies="movies?.Search" />
 </template>
 <script setup lang="ts">
-const {data:movies}=useMyFetch('',{
+const {data:movies}=useApi('',{
     params:{
         s:'action'
     }

@@ -5,8 +5,8 @@ export default defineNuxtConfig({
   typescript: { strict: false },
 
   runtimeConfig: {
-    apiKey: 'bda2ec0f',
     public: {
+      apiKey: 'bda2ec0f',
       apiBaseUrl: 'http://www.omdbapi.com',
       posterApiBaseUrl: 'http://img.omdbapi.com'
     }
